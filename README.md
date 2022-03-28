@@ -3,7 +3,7 @@ Repo to test upgrade to 0.9.11 native-maven-plugin
 
 Upgrade to 0.9.11 fails when we use 21.2.0:
 
-```aidl
+```
 [org.graalvm.junit.platform.NativeImageJUnitLauncher:950181]    classlist:     862.05 ms,  0.96 GB
 Error: Main entry point class '@/tmp/native-image6785363509462544469args' not found.
 Error: Use -H:+ReportExceptionStackTraces to print stacktrace of underlying exception
